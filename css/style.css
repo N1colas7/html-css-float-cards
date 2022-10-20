@@ -6,11 +6,10 @@
 header{
     text-align: center;
 }
-body{
-    font-family: 'Fredoka One', cursive;
-}
+
 h1{
     color:pink;
+    font-family: 'Fredoka One', cursive;
 }
 .container{
     width: 70%;
@@ -25,15 +24,24 @@ h1{
 }
 .col{
     background-color: black;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    margin-bottom: 60px;
+    margin-left: 40px;
 }
-
+.contents{
+padding: 2px;
+}
 .row .col{
     float: left;
-    width: calc(100% / 3 - 20px);
-   
+    width: calc(100% / 3 - 50px);
 }
 img{
     float: left;
+    width: 70px;
 }
+h3{
+    font-family: 'Fredoka One', cursive;
+}
+a{
+    text-decoration: none;
+}
+
