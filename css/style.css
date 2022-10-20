@@ -20,18 +20,20 @@ h1{
     color: white;
 }
 .row{
-    margin-top: 50px;    
+    margin-top: 50px; 
+      
 }
 .col{
     background-color: black;
-    padding: 0px 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+
 .row .col{
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
+   
+}
+img{
+    float: left;
 }
