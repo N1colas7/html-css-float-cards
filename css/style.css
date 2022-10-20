@@ -35,3 +35,8 @@ h1{
     float: left;
     width: calc(100% / 3);
 }
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
